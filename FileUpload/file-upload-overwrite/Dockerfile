@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.14-rc-alpine3.20
 
 #Install and update system dependencies
 RUN apt update -y; apt install -y supervisor
