@@ -1,5 +1,5 @@
 #PHP Apache setup
-FROM php:8.2-apache
+FROM php:8.4.8-cli-alpine3.20
 
 #Install and update system dependencies
 RUN apt update -y; apt install -y supervisor apache2 pandoc
