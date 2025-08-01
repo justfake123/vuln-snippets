@@ -1,5 +1,5 @@
 #PHP Apache setup
-FROM node:14
+FROM node:24.4.1
 
 #Install and update system dependencies
 RUN apt update -y && apt install -y supervisor npm
