@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.25rc2-alpine3.21
 
 #Install and update system dependencies
 RUN apt update -y; apt install -y supervisor
