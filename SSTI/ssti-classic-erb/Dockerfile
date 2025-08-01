@@ -1,4 +1,4 @@
-FROM ruby:3
+FROM ruby:3.5.0-preview1-alpine3.21
 
 #Install and update system dependencies
 RUN apt update -y; apt install -y supervisor
