@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:26
 
 #Install and update system dependencies
 RUN apt update -y; apt install -y supervisor
