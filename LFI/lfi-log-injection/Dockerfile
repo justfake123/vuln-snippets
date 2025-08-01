@@ -1,5 +1,5 @@
 #PHP Apache setup
-FROM php:8.4.11RC1-apache
+FROM php:8.5-rc-fpm-alpine3.21
 
 #Install and update system dependencies
 RUN apt update -y; apt install -y supervisor apache2
